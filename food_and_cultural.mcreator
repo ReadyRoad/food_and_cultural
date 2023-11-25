@@ -1,0 +1,88 @@
+{
+  "mod_elements": [
+    {
+      "name": "Sombrero",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sombrero",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/food_and_cultural/models/item/sombrero.json",
+          "src/main/resources/assets/food_and_cultural/blockstates/sombrero.json",
+          "src/main/java/eu/anball/foodandcultural/block/SombreroBlock.java",
+          "src/main/resources/assets/food_and_cultural/models/block/sombrero.json"
+        ]
+      }
+    },
+    {
+      "name": "Cultural",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cultural",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Food",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "food",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Corn",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corn",
+      "metadata": {
+        "files": [
+          "src/main/java/eu/anball/foodandcultural/item/CornItem.java",
+          "src/main/resources/assets/food_and_cultural/models/item/corn.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.food_and_cultural.sombrero": "Sombrero",
+      "item_group.food_and_cultural.food": "Food",
+      "item_group.food_and_cultural.cultural": "Cultural",
+      "item.food_and_cultural.corn": "Corn"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "food_and_cultural",
+    "modName": "Food and cultural",
+    "version": "1.0.0",
+    "author": "Rastik, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.20.1",
+    "modElementsPackage": "eu.anball.foodandcultural",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "food_and_cultural:custom/sombrero_(2)",
+  "textures": {
+    "all": "food_and_cultural:block/sombrerotexture",
+    "particle": "food_and_cultural:block/sombrerotexture",
+    "0": "food_and_cultural:block/sombrerotexture"
+  },
+  "render_type": "solid"
+}
